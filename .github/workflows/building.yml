@@ -21,7 +21,7 @@ jobs:
            # Target URL
            target: "http://localhost:4000"
            fail_action: false
-           token: ${{ GITHUB_TOKEN }}
+           token: ${{ secrets.GITHUB_TOKEN }}
            issue_title: Security Tests
            docker_name: 'owasp/zap2docker-stable'
            cmd_options: '-a'
