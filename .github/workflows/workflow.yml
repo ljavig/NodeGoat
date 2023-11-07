@@ -1,5 +1,4 @@
-
-name: Security Checks
+name: Security 2 Checks
 on: [push]
 
 jobs:
