@@ -20,7 +20,7 @@ jobs:
   #       uses: PortSwigger/dastardly-github-action@v1.0.0
          with:
     # The full url (including scheme) of the site to scan
-           target-url: "http://localhost:4000"
+           target-url: http://localhost:4000
     # The filename used for the scan report. This filepath relates to the dastardly container, and will exist in the github workspace (/github/workspace)
            output-filename: dastardly-report.xml # optional, default is dastardly-report.xml
 
